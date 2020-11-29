@@ -3,6 +3,7 @@ from utilities import get_u
 
 class SE:
     def __init__(self, T, gamma):
+        """Successive Elimination policy for stochastic bandits"""
         self.T = T
         self.gamma = gamma
 
