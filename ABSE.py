@@ -12,12 +12,10 @@ class ABSE:
         self.L = L
 
         # Constants used to tune the policy
-        # correction_coef = .5 / sigma  # the correction coefficient for gamma and c_0 since noise variance is different
-        correction_coef = 1
-        self.gamma = gamma / correction_coef
+        self.gamma = gamma
 
         # constants defined based on problem params
-        self.c_0 = 2 * L * correction_coef
+        self.c_0 = 2 * L
         self.k_min = 0
         self.k_0 = int(np.ceil(np.log2(T / 2 / np.log(2)) / (1 + 2 * beta)))
 
