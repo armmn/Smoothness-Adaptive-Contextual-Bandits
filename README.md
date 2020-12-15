@@ -1,2 +1,5 @@
-# Smoothness-Adaptive Contextual Bandits
-This repository contains the codes for the simulation in the paper "Smoothnees-Adaptive Contextual Bandits". If you use this code for your research please kindly cite our work.
+#### References
+Yonatn Gur, Ahmadreza Momeni, and Stefan Wager.
+<b>Smoothness-Adaptive-Contextual-Bandits.</b>
+2020.
+[<a href="https://arxiv.org/abs/1910.09714">arxiv</a>]
